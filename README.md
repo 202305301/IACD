@@ -25,6 +25,13 @@ Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas:
  - **Criação de uma tabela:** que contém os seguintes elementos para cada característica: o nome da característica, o tipo (numérico ou categórico), a média ou moda (dependendo do tipo de dados), o desvio padrão (expresso como uma percentagem da média), os valores máximo e mínimo para as características numéricas, e a contagem e percentagem de valores ausentes.
  - **Criação de histogramas:** para todas as categorias com o objetivo de compreender melhor a distribuição dos dados .
 
+###Pré-Processamento:
+ - **Transformação de dados:** Conversão de valores categóricos (ex: Yes, No) em numéricos(ex: 1,0).
+ - **Remoção de variáveis:** Remoção de variavéis com base na análise de uma matriz de correlação. Uma menor correlação de uma variável com a variável alvo: ‘Class’, leva à remoção desta.
+ - **Imputação de valores ausentes:** os valores em falta, representados por NaN, são substituídos pela Média da coluna (em colunas numéricas)
+ou pela Moda da coluna (em colunas categóricas).
+
+
 
 Para este programa foram utilizadas duas técnicas de aprendizagem supervisionada: KNN (K-Neares Neighbors) e DT (Decision Tree/Árvore de Decisão). 
 
