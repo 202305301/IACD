@@ -3,7 +3,7 @@
 # Programa de Classificação de Condições de Saúde
 
 ## Introdução
-Este programa foi construído com o objetivo de determinar a capacidade de sobrevivência dos doentes 1 ano após o diagnóstico (por exemplo, “vive” ou “morre”). Para tal é necessário a utilização real da ciência de dados, realizar a limpeza de dados e avaliação de características até à inspeção visual e comunicação dos resultados, utilizando o conjunto de dados reais de doentes diagnosticados com carcinoma hepatocelular (CHC), recolhido no Centro Hospitalar e Universitário de Coimbra (CHUC) em Portugal. 
+Este programa foi construído com o objetivo de determinar a capacidade de sobrevivência dos doentes 1 ano após o diagnóstico (por exemplo, “Lives” ou “Dies”). Para tal é necessário a utilização real da ciência de dados, realizar a limpeza de dados e avaliação de características até à inspeção visual e comunicação dos resultados, utilizando o conjunto de dados reais de doentes diagnosticados com carcinoma hepatocelular (CHC), recolhido no Centro Hospitalar e Universitário de Coimbra (CHUC) em Portugal. 
 
 Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas: 
  - a análise exploratória
@@ -13,9 +13,19 @@ Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas:
  - classificação, interpretação, avaliação e comparação do desempenho dos modelos utilizados
 
 
-##
+## Procedimento do Pipeline
 
-No que se refere à analise exploratória e ao pré-processamento
+No que se refere à analise exploratória e ao pré-processamento, foram realizados os seguintes passos:
+ - **Contagem de Dados e Características:** Foi verificado o número total de colunas (características) e linhas (dados) no conjunto de dados.
+ - **Listagem das Características:** Foram listadas todas as colunas presentes no conjunto de dados.
+ - **Identificão dos tipos de dados:** (por exemplo, numéricos, categóricos) de cada coluna utilizando ‘data.dtypes’.
+ - **Contagem de Valores Ausentes:** Contou-se o número de ‘?’ em cada coluna.
+ - **Substituição de Valores Ausentes por NaN:** Garantiu-se que os valores ausentes fossem representados como NaN no conjunto de dados.
+ -** Análise estatística para cada característica do conjunto de dados:** realizou-se o cálculo de medidas como média, desvio padrão, máximo, mínimo, contagem de valores ausentes e ainda foi identificada a moda (valor mais frequente).
+ - **Criação de uma tabela:** que contém os seguintes elementos para cada característica: o nome da característica, o tipo (numérico ou categórico), a média ou moda (dependendo do tipo de dados), o desvio padrão (expresso como uma percentagem da média), os valores máximo e mínimo para as características numéricas, e a contagem e percentagem de valores ausentes.
+ - Foram criados histogramas para todas as categorias com o objetivo de compreender melhor a distribuição dos dados .
+
+
 Para este programa foram utilizadas duas técnicas de aprendizagem supervisionada: KNN (K-Neares Neighbors) e DT (Decision Tree/Árvore de Decisão). 
 
 
