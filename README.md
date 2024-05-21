@@ -23,7 +23,7 @@ No que se refere à analise exploratória e ao pré-processamento, foram realiza
  - **Substituição de Valores Ausentes por NaN:** Garantiu-se que os valores ausentes fossem representados como NaN no conjunto de dados.
  -** Análise estatística para cada característica do conjunto de dados:** realizou-se o cálculo de medidas como média, desvio padrão, máximo, mínimo, contagem de valores ausentes e ainda foi identificada a moda (valor mais frequente).
  - **Criação de uma tabela:** que contém os seguintes elementos para cada característica: o nome da característica, o tipo (numérico ou categórico), a média ou moda (dependendo do tipo de dados), o desvio padrão (expresso como uma percentagem da média), os valores máximo e mínimo para as características numéricas, e a contagem e percentagem de valores ausentes.
- - Foram criados histogramas para todas as categorias com o objetivo de compreender melhor a distribuição dos dados .
+ - **Criação de histogramas:** para todas as categorias com o objetivo de compreender melhor a distribuição dos dados .
 
 
 Para este programa foram utilizadas duas técnicas de aprendizagem supervisionada: KNN (K-Neares Neighbors) e DT (Decision Tree/Árvore de Decisão). 
