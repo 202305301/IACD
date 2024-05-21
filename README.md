@@ -32,16 +32,7 @@ Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas:
 ou pela Moda da coluna (em colunas categóricas).
 
 
-
 Para este programa foram utilizadas duas técnicas de aprendizagem supervisionada: KNN (K-Neares Neighbors) e DT (Decision Tree/Árvore de Decisão). 
-
-
-
-A segunda tarefa prática consiste no desenvolvimento de um pipeline completo de ciência de dados, desde a análise exploratória
-exploratória e o pré-processamento de dados até à aplicação de técnicas de aprendizagem supervisionada para classificação e
-classificação e a respectiva avaliação de desempenho. Opcionalmente, o projeto pode também considerar a exploração de técnicas adicionais
-técnicas adicionais, como clustering, tratamento de dados em falta ou desequilibrados, entre outras, para melhorar o
-desempenho do sistema.
 
 
 
