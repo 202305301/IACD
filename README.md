@@ -3,7 +3,35 @@
 # Programa de Classificação de Condições de Saúde
 
 ## Introdução
-Este programa foi projetado para classificar condições de saúde com base em um conjunto de dados fornecido. Ele fornece funcionalidades para pré-processamento de dados, análise exploratória de dados, treinamento de modelo, avaliação e comparação entre dois modelos: K-Vizinhos Mais Próximos (KNN) e Árvore de Decisão.
+Este programa foi construído com o objetivo de determinar a capacidade de sobrevivência dos doentes 1 ano após o diagnóstico (por exemplo, “vive” ou “morre”). Para tal é necessário a utilização real da ciência de dados, realizar a limpeza de dados e avaliação de características até à inspeção visual e comunicação dos resultados, utilizando o conjunto de dados reais de doentes diagnosticados com carcinoma hepatocelular (CHC), recolhido no Centro Hospitalar e Universitário de Coimbra (CHUC) em Portugal. 
+
+Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas: 
+ - a análise exploratória
+ - o pré-processamento dos dados
+ - aplicação de técnicas de aprendizagem supervisionada (ML)
+ - treinamento dos modelos
+ - classificação, interpretação, avaliação e comparação do desempenho dos modelos utilizados
+
+
+##
+
+No que se refere à analise exploratória e ao pré-processamento
+Para este programa foram utilizadas duas técnicas de aprendizagem supervisionada: KNN (K-Neares Neighbors) e DT (Decision Tree/Árvore de Decisão). 
+
+
+
+A segunda tarefa prática consiste no desenvolvimento de um pipeline completo de ciência de dados, desde a análise exploratória
+exploratória e o pré-processamento de dados até à aplicação de técnicas de aprendizagem supervisionada para classificação e
+classificação e a respectiva avaliação de desempenho. Opcionalmente, o projeto pode também considerar a exploração de técnicas adicionais
+técnicas adicionais, como clustering, tratamento de dados em falta ou desequilibrados, entre outras, para melhorar o
+desempenho do sistema.
+
+objetivo é abordar um caso de utilização real da ciência de dados, desde a limpeza de dados e avaliação de características até à
+inspeção visual e comunicação dos resultados, utilizando o conjunto de dados do carcinoma hepatocelular (CHC). O conjunto de dados HCC
+O conjunto de dados HCC foi recolhido no Centro Hospitalar e Universitário de Coimbra (CHUC) em Portugal e contém dados clínicos reais de
+dados clínicos reais de pacientes diagnosticados com CHC. O principal objetivo deste projeto é desenvolver um pipeline de aprendizagem
+capaz de determinar a capacidade de sobrevivência dos doentes 1 ano após o diagnóstico (por exemplo, “vive” ou “morre”).
+
 
 ## Dependências de Pacotes
 - numpy
