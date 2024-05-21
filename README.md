@@ -15,7 +15,7 @@ Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas:
 
 ## Procedimento do Pipeline
 
-No que se refere à analise exploratória e ao pré-processamento, foram realizados os seguintes passos:
+### Análise Exploratória:
  - **Contagem de Dados e Características:** Foi verificado o número total de colunas (características) e linhas (dados) no conjunto de dados.
  - **Listagem das Características:** Foram listadas todas as colunas presentes no conjunto de dados.
  - **Identificão dos tipos de dados:** (por exemplo, numéricos, categóricos) de cada coluna utilizando ‘data.dtypes’.
@@ -36,11 +36,7 @@ classificação e a respectiva avaliação de desempenho. Opcionalmente, o proje
 técnicas adicionais, como clustering, tratamento de dados em falta ou desequilibrados, entre outras, para melhorar o
 desempenho do sistema.
 
-objetivo é abordar um caso de utilização real da ciência de dados, desde a limpeza de dados e avaliação de características até à
-inspeção visual e comunicação dos resultados, utilizando o conjunto de dados do carcinoma hepatocelular (CHC). O conjunto de dados HCC
-O conjunto de dados HCC foi recolhido no Centro Hospitalar e Universitário de Coimbra (CHUC) em Portugal e contém dados clínicos reais de
-dados clínicos reais de pacientes diagnosticados com CHC. O principal objetivo deste projeto é desenvolver um pipeline de aprendizagem
-capaz de determinar a capacidade de sobrevivência dos doentes 1 ano após o diagnóstico (por exemplo, “vive” ou “morre”).
+
 
 
 ## Dependências de Pacotes
