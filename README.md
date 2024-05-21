@@ -60,7 +60,7 @@ Para este programa foram utilizadas duas técnicas de aprendizagem supervisionad
 
 ## Uso
 1. O programa carrega o conjunto de dados de `hcc_dataset.csv`.
-2. Ele realiza pré-processamento de dados para lidar com valores ausentes e converter variáveis categóricas.
+2. Ele é capaz de realizar o pré-processamento de dados para valores ausentes e converte-los em variáveis categóricas.
 3. Análise exploratória de dados é realizada, incluindo visualização de distribuições de dados e correlações.
 4. Dois modelos de classificação, KNN e Árvore de Decisão, são treinados e avaliados.
 5. A comparação dos modelos é realizada com base em acurácia, precisão, recall/sensibilidade e F1-score.
