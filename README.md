@@ -6,11 +6,11 @@
 Este programa foi construído com o objetivo de determinar a capacidade de sobrevivência dos doentes 1 ano após o diagnóstico (por exemplo, “Lives” ou “Dies”). Para tal é necessário a utilização real da ciência de dados, realizar a limpeza de dados e avaliação de características até à inspeção visual e comunicação dos resultados, utilizando o conjunto de dados reais de doentes diagnosticados com carcinoma hepatocelular (CHC), recolhido no Centro Hospitalar e Universitário de Coimbra (CHUC) em Portugal. 
 
 Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas: 
- - a análise exploratória
- - o pré-processamento dos dados
- - aplicação de técnicas de aprendizagem supervisionada (ML)
- - treinamento dos modelos
- - classificação, interpretação, avaliação e comparação do desempenho dos modelos utilizados
+ - **Análise exploratória**
+ - **Pré-processamento dos dados**
+ - **Aplicação de técnicas de aprendizagem supervisionada (ML)**
+ - **Treinamento dos modelos**
+ - **Classificação, interpretação, avaliação e comparação do desempenho dos modelos utilizados**
 
 
 ## Procedimento do Pipeline
@@ -41,21 +41,22 @@ Para este programa foram utilizadas duas técnicas de aprendizagem supervisionad
 - numpy
 - pandas
 - seaborn
+- csv
 - matplotlib
 - scikit-learn
 
-## Instruções
-1. Clone este repositório em sua máquina local.
-2. Verifique se você possui todos os pacotes necessários instalados. Você pode instalá-los usando o pip:
 
-    ```
-    pip install numpy pandas seaborn matplotlib scikit-learn
-    ```
-3. Coloque seu arquivo de conjunto de dados chamado `hcc_dataset.csv` no mesmo diretório que o programa.
-4. Execute o programa executando o script Python.
+## Instruções
+
+**1.** Descarregue o programa para um diretório vazio da máquina de análise. 
+**2.** Verificar se os pacotes estão instalados. Se não estão, pode instalá-los usando o pip:
+**3.** Mova o arquivo `hcc_dataset.csv` para o mesmo diretório onde o programa se encontra.
+**4.** Execute todas as células jupyter de forma a inicializar o programa.
+
 
 ## Estrutura do Programa
-- `health_condition_classification.py`: Script Python contendo o programa.
+
+- `health_condition_classification.ipynb`: Notebook Jupyter contendo o programa.
 - `hcc_dataset.csv`: Arquivo de conjunto de dados contendo os dados de condições de saúde.
 
 ## Uso
@@ -66,15 +67,14 @@ Para este programa foram utilizadas duas técnicas de aprendizagem supervisionad
 5. A comparação dos modelos é realizada com base em acurácia, precisão, recall/sensibilidade e F1-score.
 6. Curvas de aprendizado e curvas ROC são plotadas para analisar o desempenho do modelo.
 
+
 ## Como Executar
-1. Certifique-se de ter o Python instalado em seu sistema.
+1. Certifique-se de ter o Python e o Jupyter Notebook instalado em seu sistema.
 2. Clone o repositório.
 3. Navegue até o diretório que contém o script e o conjunto de dados.
-4. Execute o script usando o seguinte comando:
+4. Abra e execute o notebook health_condition_classification.ipynb no Jupyter Notebook.
 
-    ```
-    python health_condition_classification.py
-    ```
+
 
 ## Notas Adicionais
 - O programa pressupõe que a última coluna do conjunto de dados é a variável alvo.
