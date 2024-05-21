@@ -21,7 +21,7 @@ Com o desenvolvimento do pipeline foi necessário cumprir com algumas etapas:
  - **Identificão dos tipos de dados:** (por exemplo, numéricos, categóricos) de cada coluna utilizando ‘data.dtypes’.
  - **Contagem de Valores Ausentes:** Contou-se o número de ‘?’ em cada coluna.
  - **Substituição de Valores Ausentes por NaN:** Garantiu-se que os valores ausentes fossem representados como NaN no conjunto de dados.
- -** Análise estatística para cada característica do conjunto de dados:** realizou-se o cálculo de medidas como média, desvio padrão, máximo, mínimo, contagem de valores ausentes e ainda foi identificada a moda (valor mais frequente).
+ - **Análise estatística para cada característica do conjunto de dados:** realizou-se o cálculo de medidas como média, desvio padrão, máximo, mínimo, contagem de valores ausentes e ainda foi identificada a moda (valor mais frequente).
  - **Criação de uma tabela:** que contém os seguintes elementos para cada característica: o nome da característica, o tipo (numérico ou categórico), a média ou moda (dependendo do tipo de dados), o desvio padrão (expresso como uma percentagem da média), os valores máximo e mínimo para as características numéricas, e a contagem e percentagem de valores ausentes.
  - **Criação de histogramas:** para todas as categorias com o objetivo de compreender melhor a distribuição dos dados .
 
