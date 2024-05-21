@@ -1,6 +1,5 @@
-# IACD
 
-# Programa de Classificação de Condições de Saúde
+# Assignment 2 - Programa de Classificação de Condições de Saúde
 
 ## Introdução
 Este programa foi construído com o objetivo de determinar a capacidade de sobrevivência dos doentes 1 ano após o diagnóstico (por exemplo, “Lives” ou “Dies”). Para tal é necessário a utilização real da ciência de dados, realizar a limpeza de dados e avaliação de características até à inspeção visual e comunicação dos resultados, utilizando o conjunto de dados reais de doentes diagnosticados com carcinoma hepatocelular (CHC), recolhido no Centro Hospitalar e Universitário de Coimbra (CHUC) em Portugal. 
